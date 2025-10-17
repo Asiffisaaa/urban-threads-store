@@ -1,0 +1,37 @@
+# Node / tooling
+node_modules/
+npm-debug.log*
+yarn-error.log
+.vscode/
+.idea/
+.DS_Store
+
+# Firebase local files / CLI
+.firebase/
+firebase-debug.log
+
+# Build / static output (if you use a build step)
+dist/
+build/
+public/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+serviceAccountKey.json
+*.key
+*.pem
+
+# System files
+Thumbs.db
+
+# Mac
+*.DS_Store
+
+# Logs
+logs/
+*.log
+
+# OS generated
+ehthumbs.db

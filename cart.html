@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cart - Urban Threads</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="brand">Urban Threads</a>
+    <div id="nav-user" class="nav-right">
+      <a href="shop.html">Shop</a>
+      <a id="auth-link" href="login.html">Login</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Your Cart</h1>
+
+    <section id="cart-area">
+      <div id="cart-items" aria-live="polite">Loading cart…</div>
+
+      <div id="cart-footer" class="cart-footer">
+        <div id="cart-total" class="cart-total"> </div>
+        <div class="checkout-actions">
+          <button id="checkout-btn" class="button">Checkout</button>
+        </div>
+      </div>
+    </section>
+
+    <p style="margin-top:18px;"><a href="shop.html">Continue shopping</a></p>
+  </main>
+
+  <!-- Nav bar logic -->
+  <script type="module" src="./js/nav.js"></script>
+  <!-- Cart functionality -->
+  <script type="module" src="./js/cart.js"></script>
+</body>
+</html>
